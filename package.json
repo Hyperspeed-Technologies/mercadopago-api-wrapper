@@ -2,9 +2,15 @@
   "name": "mercadopago-api-wrapper",
   "version": "1.0.0",
   "description": "API wrapper for mecadopago's API",
-  "main": "index.ts",
+  "main": "index.js",
   "repository": "https://github.com/Hyperspeed-Technologies/mercadopago-api-wrapper.git",
   "author": "Francisco <frangc0206@gmail.com>",
   "license": "GPL-3.0",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0"
+  }
 }
